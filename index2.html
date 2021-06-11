@@ -1,0 +1,81 @@
+const char index_html[] PROGMEM = R"rawliteral(
+<html>
+<body>
+
+<header>
+    <h1>
+        GO BABY GO
+    </h1>
+<br>
+<img src="jayden.svg" width="100" height="100">
+</header>
+
+<br>
+<h2>
+Shutoff
+<br>
+<form method="POST" action="/on">
+    <input type="submit" value="ON" style = "height: 200px; width:400px">
+</form>
+<form method="POST" action="/off">
+    <input type="submit" value="OFF" style = "height: 200px; width:400px">
+</form>
+</h2>
+
+<br>
+
+<h2>
+Driving
+<br>
+<form method="POST" action="/forward">
+    <input type="submit" value="Forward" style = "height: 200px; width:400px">
+</form>
+<form method="POST" action="/stop">
+    <input type="submit" value="Stop" style = "height: 200px; width:400px">
+</form>
+<br>
+</h2>
+
+<h2>
+Red 0-255
+<form method="POST" action = '/color'>
+    <input type ="text" name = 'red' id="red" style = "height: 100px; width:200px">
+    <br>
+Green 0-255 
+<br>
+    <input type ="text" name = 'green' id="green" style = "height: 100px; width:200px">
+    <br>
+Blue 0-255
+<br>
+    <input type ="text" name = 'blue' id="blue" style = "height: 100px; width:200px">
+    <br>
+<input type ="submit" style = "height: 100px; width:200px">
+</form>
+
+</h2>
+
+<h2>
+<br>
+Seahawks blink
+<form method="POST" action="/hawks">
+    <input type="submit" value="Seahawks Lights" style = "height: 200px; width:400px">
+</form>
+<br>
+</h1>
+
+<h2>
+Xmas blink
+<form method="POST" action="/stop">
+    <input type="submit" value="Xmas lights" style = "height: 200px; width:400px">
+</form>
+</h2>
+
+<h3>
+Designed By 
+<br>
+<img src="yutaro.svg" width="40" height="40" >
+</h3>
+
+</body>
+</html>
+)rawliteral";
