@@ -16,3 +16,7 @@ Future upgrades (will be pushed once ready)
 2. additional sounds by using a speaker
 3. More led patterns
 4. Mapping led to car's movement
+
+#some notes
+1. The IP is sent on 192.168.4.1
+2. currently has a J logo, My logo on the html page. Feel free to change it, but give me credit in another way. Look at license for more
